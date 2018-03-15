@@ -2,13 +2,13 @@
   "data": [
     {
       "id": "1",
-      "name": "Dunlap Hubbard",
+      "name": "Teddy Andrianto",
       "gender": "male",
       "phone": "+1 (890) 543-2508",
       "asal" : "Makassar",
-      "tujuan" : "Makassar",
+      "tujuan" : "Surabaya",
       "tglbeli" : "02/02/2017",
-      "tglberangkat" : "02/9/2017",
+      "tglberangkat" : "10/02/2017",
       "maskapai" : "Garuda Air"
 
     },
@@ -18,13 +18,46 @@
       "gender": "female",
       "phone": "+1 (831) 564-2190",
       "asal" : "Makassar",
+      "tujuan" : "Bandung",
+      "tglbeli" : "02/02/2017",
+      "tglberangkat" : "02/10/2017",
+      "maskapai" : "Lion Air"
+    },
+    {
+      "id": "3",
+      "name": "Isnan Akbar",
+      "gender": "female",
+      "phone": "+1 (831) 564-2190",
+      "asal" : "Makassar",
+      "tujuan" : "Papua",
+      "tglbeli" : "02/02/2017",
+      "tglberangkat" : "02/10/2017",
+      "maskapai" : "Sriwijaya Air"
+    },
+    {
+      "id": "4",
+      "name": "Subroto Mahmud",
+      "gender": "female",
+      "phone": "+1 (831) 564-2190",
+      "asal" : "Makassar",
+      "tujuan" : "Jeddah",
+      "tglbeli" : "02/02/2017",
+      "tglberangkat" : "02/10/2017",
+      "maskapai" : "Etjihad"
+    },
+    {
+      "id": "5",
+      "name": "Sasongko Anjani",
+      "gender": "female",
+      "phone": "+1 (831) 564-2190",
+      "asal" : "Makassar",
       "tujuan" : "Makassar",
       "tglbeli" : "02/02/2017",
       "tglberangkat" : "02/10/2017",
       "maskapai" : "Garuda Air"
     },
     {
-      "id": "3",
+      "id": "6",
       "name": "Acosta Robbins",
       "gender": "male",
       "phone": "+1 (882) 441-3367",
@@ -32,7 +65,7 @@
       "tujuan" : "Makassar",
       "tglbeli" : "02/02/2017",
       "tglberangkat" : "02/11/2017",
-      "maskapai" : "Garuda Air"
+      "maskapai" : "Minum Air"
     }
   ]
 }
