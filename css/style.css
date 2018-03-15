@@ -1,0 +1,33 @@
+.whyuse {
+  padding-left: 50px;
+  padding-top: 50px;
+  color: inherit;
+  background:#fff;
+  }
+
+
+ /* start signup css */
+
+.form-control{
+		height: 40px;
+		box-shadow: none;
+		color: #969fa4;
+	}
+.form-control:focus{
+		border-color: #5cb85c;
+	}
+.form-control, .btn{        
+        border-radius: 3px;
+    }
+.form-signup{
+	padding: 3%;
+	 margin-top:8%;
+	 background-color: #fff;
+	 opacity: 0.88;
+	 border-radius: 2%;
+	  font-family:Open Sans;
+	  color: #718093; 
+	position:center;
+}
+
+ /* end sign up css */	
