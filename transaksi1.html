@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+ <title>Transaksi</title>
+        <link href="./css/bootstrap.css" rel="stylesheet">
+
+    <script src="./js/bootstrap.min.js"></script>
+    <link href="./css/bootstrap.css" rel="stylesheet">
+
+    <link href="./css/font-awesome.css" rel="stylesheet">
+
+    <script src="./js/bootstrap.min.js"></script>
+
+    <script src="./js/npm.js"></script>
+
+    <script src="./js/jquery-3.3.1.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+
+
+
+   <link rel="icon" href="./img/logo.png">
+
+<script type="text/javascript">
+       
+$(document).ready(function() {
+    $('#tabel').DataTable( {
+        "ajax": "data.json",
+        "columns": [
+            { "data": "id" },
+            { "data": "name" },
+            { "data": "gender" },
+            { "data": "phone" },
+            { "data": "asal" },
+            { "data": "tujuan" },
+            { "data": "tglbeli" },
+            { "data": "tglberangkat" },
+            { "data": "maskapai" },
+            { "defaultContent": "<button>Detail</button>" }
+        ]
+    } );
+} );
+
+    </script>
+
+</head>
+<body style="background-color:#e0e7ed" >
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class=""><a href="" class="navbar-brand"> <img style="height: 29px;  " src="./img/travelpedia.png"></a></li>
+        <li><a href="index.html">Hotel</a></li>
+        <li><a href="pesawat.html">Pesawat</a></li> 
+        <li><a href="kereta.html">Kereta</a></li> 
+        <li><a href="kereta.html">Tentang Kami</a></li> 
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-ok"></span> Cek Pemesanan</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container" style="margin-top: 100px;">
+           <div class="box table-responsive">
+           <div class="row">
+                  <div class="col-sm-12">
+                    <table id="tabel" class="table table-striped ">
+              <thead>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Phone</th>
+            <th>Asal</th>
+            <th>Tujuan</th>
+            <th>Pembelian</th>
+            <th>Berangkat</th>
+            <th>Maskapai</th>
+            <th>Action</th>
+              </thead>
+
+    <tbody>
+     
+    </tbody>
+                
+        </table></div></div>
+        </div>
+
+</div>
+
+
+
+<br><br><br><br>
+
+
+
+
+</body>
+<footer>
+    <!--/.footer-->
+    
+    <div class="footer-bottom navbar-fixed-bottom ">
+        <div class="container">
+            <p class="pull-left"> Copyright Footer Travelpedia 2016. All right reserved. </p>
+            <div class="pull-right">
+                <ul class="nav nav-pills payments">
+                  <li><i class="fa fa-cc-visa"></i></li>
+                    <li><i class="fa fa-cc-mastercard"></i></li>
+                    <li><i class="fa fa-cc-amex"></i></li>
+                    <li><i class="fa fa-cc-paypal"></i></li>
+                </ul> 
+            </div>
+        </div>
+    </div>
+    <!--/.footer-bottom-->
+</footer>
+</html>
