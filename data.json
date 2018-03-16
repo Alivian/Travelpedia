@@ -58,6 +58,28 @@
     },
     {
       "id": "6",
+      "name": "Rifki Fauzan",
+      "gender": "female",
+      "phone": "+1 (831) 564-2190",
+      "asal" : "Makassar",
+      "tujuan" : "Bekasi",
+      "tglbeli" : "02/02/2017",
+      "tglberangkat" : "02/10/2017",
+      "maskapai" : "Kena Air"
+    },
+    {
+      "id": "7",
+      "name": "Agung Rahardja",
+      "gender": "male",
+      "phone": "+1 (831) 564-2190",
+      "asal" : "Gorontalo",
+      "tujuan" : "Manado",
+      "tglbeli" : "02/02/2017",
+      "tglberangkat" : "02/19/2017",
+      "maskapai" : "Garuda Air"
+    },
+    {
+      "id": "8",
       "name": "Acosta Robbins",
       "gender": "male",
       "phone": "+1 (882) 441-3367",
